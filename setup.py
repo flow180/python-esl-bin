@@ -6,7 +6,7 @@ from setuptools import setup
 from distutils.command.build import build
 from setuptools.command.easy_install import easy_install
 
-assert sys.version_info[0:2] == (3,5)
+assert sys.version_info[0:2] == (3,4)
 
 
 class BuildWithSO(build):
